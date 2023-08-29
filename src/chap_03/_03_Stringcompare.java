@@ -16,7 +16,6 @@ public class _03_Stringcompare {
         // 문자열 비교 심화
         s1 = "1234"; // 벽에 붙은 메모지의 비밀번호 정보 (참조)
         s2 = "1234";
-
         // equals()는 s1.내용과 (s2)내용이 같으면 true, 다르면 false다.
         System.out.println(s1.equals(s2)); // true (내용을 비교)
         System.out.println(s1 == s2); // true (참조하는 곳 비교
