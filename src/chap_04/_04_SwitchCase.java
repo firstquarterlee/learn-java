@@ -10,7 +10,7 @@ public class _04_SwitchCase {
         // 3등 : 반액 장학금
         // 그 외 : 장학금 대상 아님
 
-        // If Else 문을 이용
+        // If Else 문을 이용 (여러 조건 또는 범위에 해당하는 조건이 있을 경우 사용하는게 좋음)
         int ranking = 4; // 등수
         if (ranking == 1) {
             System.out.println("전액 장학금");
@@ -33,7 +33,7 @@ public class _04_SwitchCase {
 //            default: ... 수행할 명령 ...
 //        }
 
-        // Switch Case 문을 이용
+        // Switch Case 문을 이용 (명확한 케이스가 있는 경우에 사용하는게 좋음)
         ranking = 4;
         switch (ranking) {
             case 1:
@@ -58,14 +58,34 @@ public class _04_SwitchCase {
                 break;
             case 2:
             case 3:
-            case 4:
-            case 5:
-            case 6:
                 System.out.println("반액 장학금");
                 break;
             default:
                 System.out.println("장학금 대상 아님");
         }
         System.out.println("조회 완료 #3");
+
+        // 중고상품의 등급에 따른 가격을 책정 (1급 : 최상, 4급 : 최하)
+        int grade = 3; // 1등급
+        int price = 7000; // 기본가격
+        switch (grade) {
+            case 1:
+                price += 1000; // price + 1000;
+            case 2:
+                price += 1000;
+            case 3:
+                price += 1000;
+                break;
+        }
+        System.out.println(grade + "등급 제품의 가격 : " + price + "원");
+        // 1등급 제품의 가격 : 10000원
+        // 2등급 제품의 가격 : 9000원
+
+        int score = 95;
+        if (score >= 90) {
+            System.out.println("A");
+        } else if (score >= 90) {
+            System.out.println("B");
+        }
     }
 }
