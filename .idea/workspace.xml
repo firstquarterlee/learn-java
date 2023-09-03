@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38a644b4-3548-4b88-b287-a36c1e6f69e1" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chap_04/_07_DoWhile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chap_04/_08_NestedLoop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
